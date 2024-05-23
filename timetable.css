@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+}
+.table,th,td{
+    background-color:rgba(247, 247, 195, 0.916);
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td:not(:empty){
+    background-color:rgba(249, 249, 64, 0.84);
+}
